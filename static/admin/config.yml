@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: marshalltuinier/gatsby-blog-starter
+  name: git-gateway
 
 media_folder: static/assets
 
