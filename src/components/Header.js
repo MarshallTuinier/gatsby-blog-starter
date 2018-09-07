@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
-import logo from '../images/logo.svg';
 
 const HeaderWrapper = styled.div`
   background: #524763;
@@ -84,9 +83,7 @@ class Header extends React.Component {
                 color: 'white',
                 textDecoration: 'none',
               }}
-            >
-              <img src={logo} alt="logo" />
-            </Link>
+            />
           </h1>
           <MainNav>
             <ul>
